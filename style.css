@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Libre+Franklin:wght@300;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+:root {
+  --Blue: rgb(79, 125, 243);
+  --PaleBlue: rgb(194, 211, 255);
+  --LightRed: rgb(255, 82, 99);
+  --Gray: rgb(150, 150, 150);
+  --GrayLight: rgba(128, 128, 128, 0.151);
+  --VeryDarkBlue: rgb(21, 31, 41);
+}
+
+.mainContainer {
+  display: block;
+  margin: 85px auto 60px;
+}
+
+.mainContainer picture.logo img {
+  width: 52px;
+  display: block;
+  margin: 0 auto 40px;
+}
+
+.mainContainer h1 {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: var(--Gray);
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.mainContainer h1>span {
+  font-weight: 700;
+  color: var(--VeryDarkBlue);
+}
+
+.mainContainer p.Subscribe {
+  font-size: 0.65em;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.mainContainer form {
+  width: 282px;
+  margin: auto;
+}
+
+.mainContainer form .emailValidation input[type=email] {
+  width: 100%;
+  height: 40px;
+  border-radius: 32px;
+  margin-bottom: 5px;
+  border: solid 1px var(--Blue);
+  padding-left: 26px;
+}
+
+.mainContainer form .emailValidation input[type=email]:placeholder-shown {
+  color: var(--Gray);
+}
+
+.mainContainer form .emailValidation input[type=email]:focus {
+  outline: none;
+}
+
+.mainContainer form .emailValidation p#error {
+  color: var(--LightRed);
+  font-style: italic;
+  font-size: 0.65em;
+  text-align: center;
+  margin-bottom: 20px;
+  visibility: hidden;
+}
+
+.mainContainer form input[type=submit] {
+  background-color: var(--Blue);
+  width: 100%;
+  height: 40px;
+  border-radius: 32px;
+  border: none;
+  font-weight: 700;
+  color: White;
+  margin-bottom: 70px;
+  box-shadow: 3px 3px 5px var(--Blue);
+  cursor: pointer;
+}
+
+.mainContainer picture.dashboard img {
+  width: 322px;
+  display: block;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+.mainContainer section.socialNetworks {
+  display: flex;
+  width: 150px;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.mainContainer section.socialNetworks .iconContainer {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--GrayLight);
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  fill: var(--Blue);
+}
+
+.mainContainer section.socialNetworks .iconContainer:hover {
+  background-color: var(--Blue);
+  fill: White;
+  border: none;
+}
+
+.mainContainer section.socialNetworks .icon {
+  width: 0.9em;
+  height: 0.9em;
+}
+
+.mainContainer p.copyright {
+  font-size: 0.6em;
+  text-align: center;
+  color: var(--Gray);
+}
+
+@media screen and (min-width: 700px) {
+
+  .mainContainer picture.logo img {
+    width: 96px;
+    margin-bottom: 60px;
+  }
+
+  .mainContainer h1 {
+    font-size: 2.5em;
+  }
+
+  .mainContainer p.Subscribe {
+    font-size: 1.05em;
+    font-weight: 300;
+  }
+
+  .mainContainer form {
+    width: 638px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mainContainer form .emailValidation input[type=email] {
+    width: 420px;
+    height: 55px;
+    font-size: 0.8em;
+  }
+
+  .mainContainer form .emailValidation p#error {
+    text-align: left;
+    padding-left: 24px;
+  }
+
+  .mainContainer form input[type=submit] {
+    width: 200px;
+    height: 55px;
+    margin-bottom: 90px;
+    font-size: 0.8em;
+  }
+
+  .mainContainer picture.dashboard img {
+    width: 640px;
+    margin-bottom: 74px;
+  }
+}
