@@ -17,13 +17,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](.design//viewDesktop.png)
+![](./design//viewDesktop.png)
 ![](./design/viewMobile.png)
 ![](./design/activeStates.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [[Add solution URL here](https://your-solution-url.com)](https://github.com/lizSilva27/ComponentWithSignUpForm-FrontenMentor)
 - Live Site URL: https://coomingsoonpage.netlify.app
 
 ## My process
