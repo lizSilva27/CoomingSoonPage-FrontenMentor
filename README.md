@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/lizSilva27/ComponentWithSignUpForm-FrontenMentor
+- Solution URL: https://github.com/lizSilva27/CoomingSoonPage-FrontenMentor
 - Live Site URL: https://coomingsoonpage.netlify.app
 
 ## My process
