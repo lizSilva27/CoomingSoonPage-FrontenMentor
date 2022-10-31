@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://your-solution-url.com)](https://github.com/lizSilva27/ComponentWithSignUpForm-FrontenMentor)
+- Solution URL: https://github.com/lizSilva27/ComponentWithSignUpForm-FrontenMentor
 - Live Site URL: https://coomingsoonpage.netlify.app
 
 ## My process
@@ -40,4 +40,5 @@ Users should be able to:
 ###Author
 
 Github https://github.com/lizSilva27
+
 Frontend Mentor https://www.frontendmentor.io/profile/lizSilva27
